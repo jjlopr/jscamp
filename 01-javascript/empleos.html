@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>DevJobs - Empleos</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Encuentra el trabajo de tus sueños.">
+    <script type="module" src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+ <header class="header">
+    <div class="segundo">
+        <div class="tercero">
+            <div class="logo">
+                <a class="logo-link" href="#">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>                    
+                    <!-- <svg class="" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path clip-rule="evenodd" d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg> -->
+                    <span>DevJobs</span>
+                </a>
+                <nav class="nav">
+                    <!--a class="nav-item" href="#">Inicio</a-->
+                    <a class="nav-item" href="#">Empleos</a>
+                    <a class="nav-item" href="#">Empresas</a>
+                    <!--a class="nav-item" href="#">Salarios</a-->
+                </nav>
+            </div>
+            <div class="derecha">
+                <button class="button-secondary">Subir CV</button>
+                <!--button class="button-user"></button-->
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+	<div class="m-uno">
+		<div class="m-dos">
+			<h1 class="title-h1">Encuentra tu próximo trabajo</h1>
+			<h5 class="title-h5">Explora miles de oportunidades en el sector tecnológico.</h5>
+		</div>
+		<div class="m-tres">
+            <form class="relative" role="search">
+				<span class="icon-secundary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                        <path d="M21 21l-6 -6"></path>
+                    </svg>
+                </span>
+				<input class="search-bar" placeholder="Buscar trabajos, empresas o habilidades" type="text">
+			</form>
+
+			<div class="dropdown">
+				<button class="button-terciary">
+				<span>Tecnología</span>
+				<span class="button-terciary-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
+                </span>
+				</button>
+				<button class="button-terciary">
+				<span>Ubicación</span>
+				<span class="button-terciary-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
+                </span>
+				</button>
+				<button class="button-terciary">
+				<span>Tipo de contrato</span>
+				<span class="button-terciary-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
+                </span>
+				</button>
+				<button class="button-terciary">
+				<span>Nivel de experiencia</span>
+				<span class="button-terciary-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
+                </span>
+				</button>
+			</div>
+		</div>
+		<div class="">
+			<h2 class="title-h2">Resultados de búsqueda</h2>
+			<div class="resultados">
+				<div class="transition">
+					<div class="flexibus">
+						<div class="flex-grow">
+							<h3 class="text-h3">Ingeniero de Software</h3>
+							<p class="companyname">Tech Solutions Inc. | Remoto</p>
+							<p class="job-description">
+								Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.
+							</p>
+						</div>
+						<div class="margen-top">
+							<button class="button-primary">Aplicar</button>
+						</div>
+					</div>
+				</div>
+				<div class="transition">
+					<div class="flexibus">
+						<div class="flex-grow">
+							<h3 class="text-h3">Analista de Datos</h3>
+							<p class="companyname">Data Driven Co. | Ciudad de México</p>
+							<p class="job-description">
+								Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R.
+							</p>
+						</div>
+						<div class="">
+							<button class="button-primary">Aplicar</button>
+						</div>
+					</div>
+				</div>
+				<div class="transition">
+					<div class="flexibus">
+						<div class="flex-grow">
+							<h3 class="text-h3">Desarrollador de Aplicaciones Móviles</h3>
+							<p class="companyname">Mobile Apps Ltd. | Guadalajara</p>
+							<p class="job-description">
+								Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.
+							</p>
+						</div>
+						<div class="margen-top">
+							<button class="button-primary">Aplicar</button>
+						</div>
+					</div>
+				</div>
+				<div class="transition">
+					<div class="flexibus">
+						<div class="flex-grow">
+							<h3 class="text-h3">Ingeniero de DevOps</h3>
+							<p class="companyname">Cloud Services SA | Remoto</p>
+							<p class="job-description">
+								Estamos buscando un ingeniero de DevOps con experiencia en la gestión de infraestructuras en la nube, automatización de procesos y herramientas de integración continua. Se requiere conocimiento en AWS, Azure o GCP.
+							</p>
+						</div>
+						<div class="margen-top">
+							<button class="button-primary">Aplicar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="">
+				<nav class="pagination" aria-label="Pagination">
+					<a href="#" class="prev">
+						<span class=""></span>
+						<span class=""><img src="./chevron_left.svg"></span></a>
+					<a class="is-activo" aria-current="page" href="#">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#" class="next">
+						<span class=""><img src="./chevron_right.svg"></span>
+						<span class=""></span></a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</main>
+</body>
